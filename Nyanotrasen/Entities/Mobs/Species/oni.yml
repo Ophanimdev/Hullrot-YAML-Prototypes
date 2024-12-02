@@ -37,7 +37,7 @@
     fixtures: # TODO: This needs a second fixture just for mob collisions.
       fix1:
         shape:
-          !type:PhysShapeCircle
+          type: PhysShapeCircle
           radius: 0.38
         density: 195
         restitution: 0.0
