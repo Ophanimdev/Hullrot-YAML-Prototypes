@@ -12,6 +12,9 @@
       types:
       Blunt: 25
   #Oni Get Faster the closer they are to death.
+  - type: MovementSpeedModifier
+  baseWalkSpeed: 1.1
+  baseSprintSpeed: 1.3
   - type: SlowOnDamage
     speedModifierThresholds:
       60: 1.5
@@ -38,7 +41,7 @@
     fixtures: # TODO: This needs a second fixture just for mob collisions.
       fix1:
         shape:
-          type: PhysShapeCircle
+          !type: PhysShapeCircle
           radius: 0.38
         density: 195
         restitution: 0.0
