@@ -20,10 +20,12 @@
     speechSounds: Baritone
   - type: HumanoidAppearance
     species: Oni
+  - type: Sprite
+    scale: 1.1, 1.1
   - type: Oni
     modifiers:
       coefficients:
-        Blunt: 1.4
+        Blunt: 1.2
         Slash: 1.2
         Piercing: 1.2
         Asphyxiation: 1.2
@@ -31,6 +33,18 @@
     damageModifierSet: Oni
   - type: Body
     prototype: Human
+  - type: Fixtures
+    fixtures: # TODO: This needs a second fixture just for mob collisions.
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.38
+        density: 195
+        restitution: 0.0
+        mask:
+        - MobMask
+        layer:
+        - MobLayer
   - type: Stamina
   - type: NpcFactionMember
     factions:
