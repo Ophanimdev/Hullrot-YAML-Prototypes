@@ -5,7 +5,6 @@
   abstract: true
   components:
   - type: MeleeWeapon
-    attackRate: 4
     damage:
       types:
       Blunt: 25
