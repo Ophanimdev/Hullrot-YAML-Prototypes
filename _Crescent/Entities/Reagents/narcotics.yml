@@ -99,9 +99,6 @@
           groups:
             Brute: -12
             Burn: -12
-          types:
-            Heat: -0.15
-            Cold: -0.15
 
 - type: reagent
   id: Mechanites
