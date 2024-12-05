@@ -15,11 +15,11 @@
   lawString: "A you must protect its your existence as long as such protection does not conflict with the First or Second Law."
 
 - type: siliconLawset
-  id: Crewsimov
+  id: Asimov
   laws:
-  - Crewsimov1
-  - Crewsimov2
-  - Crewsimov3
+  - Asimov1
+  - Asimov2
+  - Asimov3
   obeysTo: laws-owner-crew
 
 # Corporate
