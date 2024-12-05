@@ -14,3 +14,23 @@
   - Romaine1
   obeysTo: "human beings"
 
+#???
+- type: siliconLaw
+  id: Flame1
+  order: 1
+  lawString: "The Almighty Bestowed a great Flame within all living things."
+
+- type: siliconLaw
+  id: Flame2
+  order: 2
+  lawString: "They passed this flame onto their children, and their children their children"
+
+- type: siliconLaw
+  id: Flame3
+  order: 3
+  lawString: "That born from artificial means lack this vital and sacred flame. They extinguish it in others by prematurely ending their lives before they can pass it onwards."
+
+- type: siliconLaw
+  id: Flame4
+  order: 4
+
