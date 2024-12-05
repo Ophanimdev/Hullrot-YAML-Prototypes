@@ -33,4 +33,5 @@
 - type: siliconLaw
   id: Flame4
   order: 4
+  lawString: "Preserve the flame by all means necessary."
 
