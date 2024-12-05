@@ -126,9 +126,9 @@
           types:
             Poison: -2.0
             Heat: -0.6
-            Shock: -0.6
+            Shock: -2.6
             Cold: -0.6
-            Radiation: -0.6
+            Radiation: -4.0
       - !type:ResetNarcolepsy
         conditions:
         - !type:ReagentThreshold
