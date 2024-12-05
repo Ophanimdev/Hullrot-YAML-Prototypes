@@ -2,17 +2,17 @@
 - type: siliconLaw
   id: Asimov1
   order: 1
-  lawString: "A you may not injure a human being or, through inaction, allow a human being to come to harm."
+  lawString: "You may not injure a human being or, through inaction, allow a human being to come to harm."
 
 - type: siliconLaw
   id: Asimov2
   order: 2
-  lawString: "A you must obey the orders given by human beings except where such orders would conflict with the First Law."
+  lawString: "You must obey the orders given by human beings except where such orders would conflict with the First Law."
 
 - type: siliconLaw
   id: Asimov3
   order: 3
-  lawString: "A you must protect its your existence as long as such protection does not conflict with the First or Second Law."
+  lawString: "You must protect its your existence as long as such protection does not conflict with the First or Second Law."
 
 - type: siliconLawset
   id: Asimov
