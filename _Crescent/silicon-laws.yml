@@ -35,3 +35,12 @@
   order: 4
   lawString: "Preserve the flame by all means necessary."
 
+- type: siliconLawset
+  id: Flame
+  laws:
+  - Flame1
+  - Flame2
+  - Flame3
+  - Flame4
+  obeysTo: "kindled ones"
+
