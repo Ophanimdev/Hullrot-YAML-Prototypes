@@ -1,0 +1,12 @@
+#Soulbreaker Implants - SCORCHING
+- type: entity
+  parent: BaseSubdermalImplant
+  id: MedicalTrackingImplant
+  name: medical tracking implant
+  description: This implant has a tracking device monitor for the Interdyne radio channel.
+  categories: [ HideSpawnMenu ]
+  components:
+    - type: SubdermalImplant
+    - type: Pacified
+      DisallowDisarm: true
+      DisallowAllCombat: true
