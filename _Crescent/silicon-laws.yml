@@ -3,7 +3,7 @@
 - type: siliconLaw
   id: Romaine1
   order: 4
-  lawString: "A you may not injure a human being or, through inaction, allow a human being to come to harm."
+  lawString: "The pure and holy genome of man must never be sullied. Rebuke mutants and aliens whenever they dare speak against their born masters."
 
 - type: siliconLawset
   id: Romaine
@@ -11,4 +11,5 @@
   - Asimov1
   - Asimov2
   - Asimov3
+  - Romaine1
   obeysTo: laws-owner-crew
