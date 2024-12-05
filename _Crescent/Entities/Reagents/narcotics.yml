@@ -125,7 +125,7 @@
   group: Narcotics
   desc: reagent-desc-kaiser
   physicalDesc: reagent-physical-desc-opaque
-  flavor: medicine
+  flavor: holy
   color: "#00e5ff"
   metabolisms:
     Medicine:
