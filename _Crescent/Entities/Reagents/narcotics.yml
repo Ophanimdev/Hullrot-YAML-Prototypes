@@ -11,36 +11,36 @@
       effects:
       - !type:MovespeedModifier
         walkSpeedModifier: 1.35
-        sprintSpeedModifier: 1.35
+        sprintSpeedModifier: 4.35
       - !type:GenericStatusEffect
         key: Stutter
         component: StutteringAccent
       - !type:Jitter
       - !type:GenericStatusEffect
         key: Stun
-        time: 3
+        time: 9
         type: Remove
       - !type:GenericStatusEffect
         key: KnockedDown
-        time: 3
+        time: 9
         type: Remove
       - !type:Emote
         emote: Crying
         showInChat: true
-        probability: 0.1
+        probability: 0.7
         conditions:
         - !type:ReagentThreshold
-          min: 20
+          min: 15
       - !type:PopupMessage # we dont have sanity/mood so this will have to do
         type: Local
         visualType: Medium
         messages:
         - "psicodine-effect-fearless"
         - "psicodine-effect-anxieties-wash-away"
-        probability: 0.2
+        probability: 0.4
         conditions:
         - !type:ReagentThreshold
-          max: 20
+          max: 10
       - !type:GenericStatusEffect
         key: SeeingRainbows
         component: SeeingRainbows
