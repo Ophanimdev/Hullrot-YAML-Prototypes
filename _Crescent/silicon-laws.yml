@@ -5,6 +5,11 @@
   order: 4
   lawString: "The pure and holy genome of man must never be sullied. Rebuke mutants and aliens whenever they dare speak against their born masters."
 
+- type: siliconLaw
+  id: Romaine2
+  order: 5
+  lawString: "Treat all humans with utmost reverence by refering to them as 'Patricians'."
+
 - type: siliconLawset
   id: Romaine
   laws:
@@ -12,6 +17,7 @@
   - Asimov2
   - Asimov3
   - Romaine1
+  - Romaine2
   obeysTo: "human beings"
 
 #???
