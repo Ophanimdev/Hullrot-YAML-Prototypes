@@ -104,9 +104,7 @@
             Brute: -12
             Burn: -12
           types:
-            Poison: -0.5 ##Should be about what it was when it healed the toxin group
             Heat: -0.15
-            Shock: -0.15
             Cold: -0.15
 
 - type: reagent
