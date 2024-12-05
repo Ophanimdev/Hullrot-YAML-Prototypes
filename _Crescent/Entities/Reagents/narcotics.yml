@@ -110,6 +110,14 @@
         key: Stutter
         component: StutteringAccent
       - !type:Jitter
+      - !type:HealthChange
+        - !type:ReagentThreshold
+          reagent: Crash
+          min: 1
+        damage:
+          types:
+            Poison: 30
+
 
 - type: reagent
   id: Kaiser
