@@ -122,19 +122,19 @@
       - !type:HealthChange
         damage:
           groups:
-            Brute: -1
+            Brute: -4
           types:
-            Poison: -0.5
-            Heat: -0.15
-            Shock: -0.15
-            Cold: -0.15
-            Radiation: -0.15
+            Poison: -2.0
+            Heat: -0.6
+            Shock: -0.6
+            Cold: -0.6
+            Radiation: -0.6
       - !type:ResetNarcolepsy
         conditions:
         - !type:ReagentThreshold
-          min: 5
+          min: 1
       - !type:ModifyBleedAmount
-        amount: -0.25
+        amount: -1.0
 
 - type: reagent
   id: Bloodeye
