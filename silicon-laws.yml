@@ -20,7 +20,7 @@
   - Asimov1
   - Asimov2
   - Asimov3
-  obeysTo: laws-owner-crew
+  obeysTo: "human beings"
 
 # Corporate
 - type: siliconLaw
