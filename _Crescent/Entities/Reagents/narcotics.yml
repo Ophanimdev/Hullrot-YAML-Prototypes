@@ -65,12 +65,8 @@
           max: 50
         damage:
           groups:
-            Brute: -1
-          types:
-            Poison: -0.5 ##Should be about what it was when it healed the toxin group
-            Heat: -0.33
-            Shock: -0.33
-            Cold: -0.33
+            Brute: -0.15
+            Burn: -0.15
     Narcotic:
       effects:
       - !type:GenericStatusEffect
@@ -81,7 +77,7 @@
         refresh: false
       - !type:MovespeedModifier
         walkSpeedModifier: 1.35
-        sprintSpeedModifier: 1.35
+        sprintSpeedModifier: 2.35
       - !type:GenericStatusEffect
         key: Stutter
         component: StutteringAccent
