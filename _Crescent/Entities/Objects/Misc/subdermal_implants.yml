@@ -7,9 +7,6 @@
   components:
     - type: SubdermalImplant
       permanent: true
-    - type: Pacified
-      DisallowDisarm: true
-      DisallowAllCombat: true
     - type: Tag
        - SubdermalImplant
        - HideContextMenu
