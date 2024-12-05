@@ -143,6 +143,7 @@
         damage:
           groups:
           Burn: -6
+          Airloss: -6
           types:
             Heat: -2
             Cold: -2
