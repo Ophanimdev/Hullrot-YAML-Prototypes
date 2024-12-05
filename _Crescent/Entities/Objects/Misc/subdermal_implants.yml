@@ -1,12 +1,16 @@
-#Soulbreaker Implants - SCORCHING
+#Soulbreaker Implants - SCORCHAH
 - type: entity
   parent: BaseSubdermalImplant
-  id: MedicalTrackingImplant
-  name: medical tracking implant
-  description: This implant has a tracking device monitor for the Interdyne radio channel.
-  categories: [ HideSpawnMenu ]
+  id: SoulbreakerImplant
+  name: soulbreaker implant
+  description: But gradually slavery became an accepted norm, Soulbreakers and other slavery implementations generously supplying the market with new hands.
   components:
     - type: SubdermalImplant
+      permanent: true
     - type: Pacified
       DisallowDisarm: true
       DisallowAllCombat: true
+    - type: Tag
+       - SubdermalImplant
+       - HideContextMenu
+       - Pacified #Someone needs to implement a SoulbreakerComponent and Soulbreaker system to check for this.
