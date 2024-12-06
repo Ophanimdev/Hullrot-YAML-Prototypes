@@ -23,7 +23,7 @@
   components:
   - type: LimitedCharges
     maxCharges: 666 #Let's make it an absurdly high number since you have to wait anyway
-    charges: 30
+    charges: 30 #Ships have a ton of airlocks + the thing's made for experimentation - you want to slap it on as many thing as possible
   - type: AutoRecharge
     rechargeDuration: 30
   - type: StaticPrice
