@@ -12,6 +12,8 @@
   - type: Item
     sprite: Objects/Tools/emag.rsi
     storedRotation: -90
+    - type: StaticPrice
+    price: 7500
 
 
 - type: entity
@@ -20,5 +22,9 @@
   suffix: Limited
   components:
   - type: LimitedCharges
+    maxCharges: 666 #Let's make it an absurdly high number since you have to wait anyway
+    charges: 30
+  - type: AutoRecharge
+    rechargeDuration: 30
   - type: StaticPrice
     price: 2500
